@@ -1,0 +1,21 @@
+{"env_info": "sys.platform: win32\nPython: 3.9.21 (main, Dec 11 2024, 16:35:24) [MSC v.1929 64 bit (AMD64)]\nCUDA available: True\nGPU 0: NVIDIA GeForce RTX 4060 Laptop GPU\nCUDA_HOME: C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.3\\libnvvp\nNVCC: Not Available\nMSVC: \u7528\u4e8e x64 \u7684 Microsoft (R) C/C++ \u4f18\u5316\u7f16\u8bd1\u5668 19.42.34438 \u7248\nGCC: n/a\nPyTorch: 1.12.1+cu113\nPyTorch compiling details: PyTorch built with:\n  - C++ Version: 199711\n  - MSVC 192829337\n  - Intel(R) Math Kernel Library Version 2020.0.2 Product Build 20200624 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)\n  - OpenMP 2019\n  - LAPACK is enabled (usually provided by MKL)\n  - CPU capability usage: AVX2\n  - CUDA Runtime 11.3\n  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_61,code=sm_61;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_37,code=compute_37\n  - CuDNN 8.3.2  (built against CUDA 11.5)\n  - Magma 2.5.4\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.3, CUDNN_VERSION=8.3.2, CXX_COMPILER=C:/actions-runner/_work/pytorch/pytorch/builder/windows/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /GR /EHsc /w /bigobj -DUSE_PTHREADPOOL -openmp:experimental -IC:/actions-runner/_work/pytorch/pytorch/builder/windows/mkl/include -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DUSE_FBGEMM -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DEDGE_PROFILER_USE_KINETO, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.12.1, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=OFF, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_ROCM=OFF, \n\nTorchVision: 0.13.1+cu113\nOpenCV: 4.11.0\nMMCV: 1.7.1\nMMCV Compiler: MSVC 192829924\nMMCV CUDA Compiler: 11.3\nMMClassification: 0.24.1+", "seed": null}
+{"mode": "val", "epoch": 1, "iter": 18, "lr": 0.045, "accuracy_top-1": 27.62238, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 2, "iter": 18, "lr": 0.0441, "accuracy_top-1": 41.60839, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 3, "iter": 18, "lr": 0.04322, "accuracy_top-1": 34.96503, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 4, "iter": 18, "lr": 0.04235, "accuracy_top-1": 40.03497, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 5, "iter": 18, "lr": 0.04151, "accuracy_top-1": 39.68531, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 6, "iter": 18, "lr": 0.04068, "accuracy_top-1": 54.1958, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 7, "iter": 18, "lr": 0.03986, "accuracy_top-1": 52.97203, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 8, "iter": 18, "lr": 0.03907, "accuracy_top-1": 49.12587, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 9, "iter": 18, "lr": 0.03828, "accuracy_top-1": 38.98602, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 10, "iter": 18, "lr": 0.03752, "accuracy_top-1": 42.48252, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 11, "iter": 18, "lr": 0.03677, "accuracy_top-1": 46.85315, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 12, "iter": 18, "lr": 0.03603, "accuracy_top-1": 47.55245, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 13, "iter": 18, "lr": 0.03531, "accuracy_top-1": 48.25175, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 14, "iter": 18, "lr": 0.03461, "accuracy_top-1": 55.59441, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 15, "iter": 18, "lr": 0.03391, "accuracy_top-1": 52.62238, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 16, "iter": 18, "lr": 0.03324, "accuracy_top-1": 43.53147, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 17, "iter": 18, "lr": 0.03257, "accuracy_top-1": 55.41958, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 18, "iter": 18, "lr": 0.03192, "accuracy_top-1": 54.1958, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 19, "iter": 18, "lr": 0.03128, "accuracy_top-1": 56.99301, "accuracy_top-5": 100.0}
+{"mode": "val", "epoch": 20, "iter": 18, "lr": 0.03066, "accuracy_top-1": 59.61539, "accuracy_top-5": 100.0}
